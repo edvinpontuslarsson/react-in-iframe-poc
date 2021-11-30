@@ -1,0 +1,48 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#floating-info {
+  position: fixed;
+  top: 85%;
+  right: 10%;
+  z-index: 10;
+  font-size: 32px;
+  
+  background-color: rgb(25, 118, 210);
+  background: rgb(25, 118, 210);
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  color: #FFF;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: .3s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  line-height: 64px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#floating-info:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  background: lightgray;
+  color: black;
+}
+
+#app-iframe {
+  position: fixed;
+  border: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
